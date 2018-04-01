@@ -1,0 +1,178 @@
+p{
+	color: #555;
+    font-family: helvetica,arial;
+    font-size: 13px;
+}
+.navbar-nav>li:hover {
+	background-color: #e7e7e7;
+}
+.module-divider{
+	margin: 20px 0;
+    box-sizing: border-box;
+    padding: 0;
+    height: 10px;
+    background: url(../public/images/border-categories-home.png) repeat left top transparent;
+}
+.three_column{
+	background: transparent;
+    border: 0;
+    font-size: 100%;
+    margin: 0;
+    outline: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+.five_column ul li {
+	position: relative;
+    float: left;
+	width: 19.2%;
+	list-style: none;
+}
+.m-r-2pt{
+	margin-right: 2%;
+}
+.m-l-4pt{
+	margin-left: -4%;
+}
+.m-t-20{
+	margin-top: 20px;
+}
+.five_column ul li img{
+	width: 100%;
+}
+.five_column ul li a{
+	display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    background: -moz-linear-gradient(8deg,rgba(0,0,0,0.3) 0,rgba(0,0,0,0.1) 35%,rgba(0,0,0,0.02) 100%);
+    background: -webkit-linear-gradient(8deg,rgba(0,0,0,0.3) 0,rgba(0,0,0,0.1) 35%,rgba(0,0,0,0.02) 100%);
+    background: linear-gradient(8deg,rgba(0,0,0,0.3) 0,rgba(0,0,0,0.1) 35%,rgba(0,0,0,0.02) 100%);
+}
+.style_info{
+	position: absolute;
+    left: 20px;
+    bottom: 20px;
+}
+.style_title {
+	font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    line-height: 1.1;
+    font-family: "Helvetica Neue",Helvetica,Arial,Verdana,sans-serif;
+}
+.blog{
+	position: relative;
+    width: 66%;
+    margin-bottom: 40px;
+    float: left;
+}
+.blog h4{
+    color: #282828;
+    display: block;
+    font-family: "kulturista-web-1","kulturista-web-2",helvetica,arial;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.45;
+    margin: 10px auto;
+    text-transform: none;
+}
+.blog-img-container{
+    min-height: 300px;
+    margin-bottom: 20px;
+    display: block;
+    overflow: hidden;
+    border: 1px solid #e5e5e5;
+    background-image:url(../public/images/tacobutt.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+.blog h3{
+	margin-top: 0;
+}
+.post-datetime{
+    font-family: Helvetica,Arial,"Lucida Grande",sans-serif;
+    font-weight: 700;
+    color: #282828;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+.categories{
+    font-weight: normal;
+    color: #5a5a5a;
+}
+.instagram_grid {
+    height: auto;
+    float: left;
+    position: relative;
+    width: 32%;
+}
+.instagram_grid h3{
+	margin-top: 0;
+}
+.m-b-15{
+	margin-bottom: 15px;
+}
+.instagram_grid ul li {
+    display: block;
+    float: left;
+    width: 50%;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    padding: 0 5px;
+}
+.instagram_grid ul li img {
+    border: 1px solid #e5e5e5;
+}
+img{
+	vertical-align: bottom;
+    width: 100%;
+}
+
+.site-footer {
+    background: #e5e5e5;
+    clear: both;
+    text-align: left;
+    width: 100%;
+}
+.iw {
+    height: 100%;
+    margin: 0 auto;
+    max-width: 1258px;
+    position: relative;
+    width: 95%;
+}
+.w{
+	min-height: 200px;
+}
+.footer-nav {
+    float: left;
+    width: 100%;
+}
+.footer-nav>li {
+	list-style: none;
+    float: left;
+    line-height: 20px;
+    margin: 0 3% 0 0;
+    width: 16.6%;
+}
+.shop {
+    width: 21.2%;
+}
+ol{
+	list-style: none;
+}
+.shop ol li {
+    width: 50%;
+    float: left;
+}
+.footer_artist_shops {
+    margin-right: 0;
+    text-align: center;
+}
+.footer-note{
+	border-top: 4px solid #d2d2d2;
+	padding-top: 20px;
+}
